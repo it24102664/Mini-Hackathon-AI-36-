@@ -13,8 +13,41 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // 1. Configure Database (PostgreSQL EF Core)
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+string GetConnectionString()
+{
+    var envDbUrl = Environment.GetEnvironmentVariable("DATABASE_URL")
+        ?? Environment.GetEnvironmentVariable("DATABASE_PUBLIC_URL")
+        ?? Environment.GetEnvironmentVariable("POSTGRES_URL");
+
+    if (!string.IsNullOrWhiteSpace(envDbUrl))
+    {
+        if (envDbUrl.StartsWith("postgres://") || envDbUrl.StartsWith("postgresql://"))
+        {
+            try
+            {
+                var uri = new Uri(envDbUrl);
+                var userInfo = uri.UserInfo.Split(':');
+                var user = userInfo[0];
+                var password = userInfo.Length > 1 ? Uri.UnescapeDataString(userInfo[1]) : "";
+                var host = uri.Host;
+                var port = uri.Port > 0 ? uri.Port : 5432;
+                var database = uri.AbsolutePath.TrimStart('/');
+
+                return $"Host={host};Port={port};Database={database};Username={user};Password={password};SSL Mode=Prefer;Trust Server Certificate=true";
+            }
+            catch
+            {
+                return envDbUrl;
+            }
+        }
+        return envDbUrl;
+    }
+
+    return builder.Configuration.GetConnectionString("DefaultConnection")
+        ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+}
+
+var connectionString = GetConnectionString();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
