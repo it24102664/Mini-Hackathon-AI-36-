@@ -66,8 +66,65 @@ Follow these steps to set up the project locally on your machine.
 * Ensure you have [Node.js](https://nodejs.org/) installed.
 * Ensure you have [Python 3.x](https://www.python.org/) installed.
 
-### Steps
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/Mini-Hackathon-AI-36.git](https://github.com/your-username/Mini-Hackathon-AI-36.git)
+### Step 1: Clone the Repository
+bash
+git clone https://github.com/IT24102913/SEF_HACK_FINALTEST.git
+cd SEF_HACK_FINALTEST
+
+
+---
+
+### Step 2: Backend Setup (.NET 8 Web API)
+
+1. Navigate to the backend directory:
+   bash
+   cd backend
+   
+
+2. Configure Database Connection String in appsettings.json (or set environment variable):
+   json
+   "ConnectionStrings": {
+     "DefaultConnection": "Host=localhost;Port=5432;Database=mediapp;Username=postgres;Password=YOUR_PASSWORD"
+   }
+   
+
+3. Restore dependencies and build the solution:
+   bash
+   dotnet restore
+   dotnet build
+   
+
+4. Run the API (Database migrations and seed data will apply automatically on startup):
+   bash
+   dotnet run
+   
+   The server will start at http://localhost:5126 (or http://localhost:5000). Access Swagger UI at http://localhost:5126/swagger.
+
+---
+
+### Step 3: Frontend Setup (React + Vite)
+
+1. Open a new terminal and navigate to the web directory:
+   bash
+   cd web
+   
+
+2. Install dependencies:
+   bash
+   npm install
+   
+
+3. Ensure .env file exists with your backend API URL:
+   env
+   VITE_API_BASE_URL=http://localhost:5126/api
+   
+
+4. Start the development server:
+   bash
+   npm run dev
+   
+   The web application will open at http://localhost:5173.
+
+---
+
    
