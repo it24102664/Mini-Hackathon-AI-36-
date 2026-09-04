@@ -39,7 +39,7 @@
 | **Cloud/Hosting** |Vercel / Railway |
 
 ## 🤖 AI Tools Used
-* **:** Used for [e.g., natural language processing for the chatbot].
+* **Gemini** — generated the professional markdown structure and formatting for this README.md file; we manually populated it with our specific project details and links.
 * **:** Used for [e.g., computer vision to read prescriptions].
 * **[Tool Name 3]:** Used for [e.g., generating code or assisting in UI/UX design].
 
