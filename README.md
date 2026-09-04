@@ -8,23 +8,7 @@
 
 </div>
 
-<br />
 
-<details>
-  <summary>📋 Table of Contents</summary>
-  <ol>
-    <li><a href="#-the-selected-problem">The Selected Problem</a></li>
-    <li><a href="#-the-proposed-solution">The Proposed Solution</a></li>
-    <li><a href="#-main-features">Main Features</a></li>
-    <li><a href="#%EF%B8%8F-technologies-used">Technologies Used</a></li>
-    <li><a href="#-ai-tools-used">AI Tools Used</a></li>
-    <li><a href="#-team-member-details-and-contributions">Team & Contributions</a></li>
-    <li><a href="#-installation-and-execution-instructions">Installation & Execution</a></li>
-    <li><a href="#-important-links">Important Links</a></li>
-  </ol>
-</details>
-
----
 
 ## 🧐 The Selected Problem
 
@@ -60,14 +44,18 @@
 * **[Tool Name 3]:** Used for [e.g., generating code or assisting in UI/UX design].
 
 ## 👥 Team Member Details and Contributions
-| Name | Role | Core Contributions | GitHub |
-| :--- | :--- | :--- | :--- |
-| **IT24102572  Danansuriya A.T.A.D** |Problem & solution design| Set up the backend, integrated AI models, and managed the database. | [@username](https://github.com/username) |
-| **IT24102726  Nirwan K.G.D** |UI development| Created wireframes, developed the frontend, and ensured responsive design. | [@username](https://github.com/username) |
-| **IT24102913	Gamage D.V.N** | Functional implementation | Gathered medical datasets, trained the AI logic, and tested APIs. | [@username](https://github.com/username) |
-| **IT24102664	Xavier M.A.J.K** | Testing, Git & deployment | Gathered medical datasets, trained the AI logic, and tested APIs. | [@username](https://github.com/username) |
+| Name | Role | Core Contributions |
+| :--- | :--- | :--- |
+| **IT24102572  Danansuriya A.T.A.D** |Problem & solution design| Framed the problem, defined the MVP scope, and the core user flow. | 
+| **IT24102726  Nirwan K.G.D** |UI development| developed the frontend, and ensured responsive design. |
+| **IT24102913	Gamage D.V.N** | Functional implementation | Built the features, data handling, and validation logic.|
+| **IT24102664	Xavier M.A.J.K** | Testing, Git & deployment | Test and fix, manage the repository, deploy, and lead the demonstration. |
 
-## 🚀 Installation and Execution Instructions
+## 🔗 Project Deliverables
+*   **Live Deployed Application:** [👉 Click Here to View Live App](INSERT_YOUR_DEPLOYED_URL_HERE)
+*   **2-Minute Demonstration Video:** [🎬 Watch the Demo Video](INSERT_YOUR_DRIVE_OR_ONEDRIVE_LINK_HERE)
+
+##  Installation and Execution Instructions
 
 Follow these steps to set up the project locally on your machine.
 
@@ -79,3 +67,4 @@ Follow these steps to set up the project locally on your machine.
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/Mini-Hackathon-AI-36.git](https://github.com/your-username/Mini-Hackathon-AI-36.git)
+   
