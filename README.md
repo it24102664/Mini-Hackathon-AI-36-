@@ -39,9 +39,12 @@
 | **Cloud/Hosting** |Vercel / Railway |
 
 ## 🤖 AI Tools Used
-* **Gemini** — generated the professional markdown structure and formatting for this README.md file; we manually populated it with our specific project details and links.
-* **:** Used for [e.g., computer vision to read prescriptions].
-* **[Tool Name 3]:** Used for [e.g., generating code or assisting in UI/UX design].
+* **Gemini** — generated the professional Markdown structure and formatting for this README.md file; we manually populated it with our specific project details and links.
+* **Claude** - used to generate the initial ASP.NET Core backend structure, including JWT authentication, controllers, EF Core models, migrations, and configuration. Our team customized the generated code, configured the database, fixed issues, added required validation and logic, and tested the APIs.
+* **Claude** - used to generate the initial React frontend, including role-based dashboards, routing, protected routes, and reusable components. Our team customized the UI, connected the frontend to the backend, adjusted role permissions, fixed integration issues, and tested the user flows.
+* **Claude** -used to assist with reviewing the authentication flow and core API endpoints. Our team tested registration, login, JWT authentication, and category CRUD operations, then modified and retested the implementation where necessary.
+* **ChatGPT** - used for project ideation and refining the MVP scope for the selected problem.
+* **NotebookLM** - used to help structure and organize the submission report and documentation.
 
 ## 👥 Team Member Details and Contributions
 | Name | Role | Core Contributions |
