@@ -1,11 +1,11 @@
 # Mini-Hackathon-AI-36
-# project title: 
-# The selected problem: 
-# The proposed solution:
-# main features:
-# technologies used:
-# AI tools used:
-# team member details and contributions:
-# installation and execution instructions:
-# the deployed application link:
-# the demonstration video link:
+## Project title: 
+## The selected problem: 
+## The proposed solution:
+## Main features:
+## Technologies used:
+## AI tools used:
+## Team member details and contributions:
+## Installation and execution instructions:
+## The deployed application link:
+## The demonstration video link:
