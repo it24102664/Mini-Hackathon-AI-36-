@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "wjbPSJOJhZkmQx6SJWL+juiWL5fsO86udSwn/SaCblw=",
+  "Source": "HealthBridge.Api",
+  "BasePath": "_content/HealthBridge.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HealthBridge.Api\\wwwroot",
+      "Source": "HealthBridge.Api",
+      "ContentRoot": "D:\\HACK\\backend\\wwwroot\\",
+      "BasePath": "_content/HealthBridge.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\HACK\\backend\\wwwroot\\uploads\\prescriptions\\.gitkeep",
+      "SourceId": "HealthBridge.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HACK\\backend\\wwwroot\\",
+      "BasePath": "_content/HealthBridge.Api",
+      "RelativePath": "uploads/prescriptions/.gitkeep",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\prescriptions\\.gitkeep"
+    }
+  ]
+}
