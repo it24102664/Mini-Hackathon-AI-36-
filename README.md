@@ -55,8 +55,8 @@
 | **IT24102664	Xavier M.A.J.K** | Testing, Git & deployment | Test and fix, manage the repository, deploy, and lead the demonstration. |
 
 ##  Project Deliverables
-*   **Live Deployed Application:** [ Click Here to View Live App](INSERT_YOUR_DEPLOYED_URL_HERE)
-*   **2-Minute Demonstration Video:** [Watch the Demo Video](INSERT_YOUR_DRIVE_OR_ONEDRIVE_LINK_HERE)
+*   **Live Deployed Application:** [ Click Here to View Live App](https://mini-hackathon-ai-36-ol2rw4x82-it-24102664.vercel.app?_vercel_share=ltXUdkO5Lp3Hv9Sx10fQJ4FuIe9NLSGx)
+*   **2-Minute Demonstration Video:** [Watch the Demo Video](https://drive.google.com/drive/folders/1EAAVhbWvj3FQhG7_Qt4r0VGbzdB80sOt?usp=sharing)
 
 ##  Installation and Execution Instructions
 
